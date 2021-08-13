@@ -22,7 +22,7 @@ function AllMeetupsPage() {
   useEffect(() => {
     setIsLoading(true);
     fetch(
-      "https://react-meetups-3d1a8-default-rtdb.asia-southeast1.firebasedatabase.app/meetups.json"
+      "https://react-meetups-3d1a8-default-rtdb.asia-southeast1.firebasedatabase.app//meetups.json"
     )
       .then((response) => response.json())
       .then((data) => {        
